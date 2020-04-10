@@ -22,6 +22,10 @@
   cursor: pointer;
 }
 
+.endless-splash-screen__button:active {
+  background-color: #35a78e;
+}
+
 .endless-splash-screen__text-container {
   color: #ffffff;
   font-family: "LatoRegular";
