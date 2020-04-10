@@ -1,0 +1,61 @@
+.endless-splash-screen {
+  min-height: 430px;
+  background-image: url(./assets/images/photo-couch.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.endless-splash-screen__button {
+  background-color: #50e3c2;
+  border: none;
+  border-radius: 15px;
+  color: #000000;
+  font-family: "LatoBold";
+  font-size: 12px;
+  padding: 5px 20px;
+  transition: background-color 0.25s ease-out;
+}
+
+.endless-splash-screen__button:hover {
+  background-color: #35a78e;
+  cursor: pointer;
+}
+
+.endless-splash-screen__text-container {
+  color: #ffffff;
+  font-family: "LatoRegular";
+  padding-top: 160px;
+  padding-left: 148px;
+  padding: 160px 15px 15px 148px;
+  transition: padding 0.25s ease-in-out;
+}
+
+.endless-splash-screen__text--excerpt {
+  font-size: 14px;
+  max-width: 340px;
+}
+
+.endless-splash-screen__text--focal {
+  font-family: "LatoThin";
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.endless-splash-screen__text--preceding {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 770px) {
+  .endless-splash-screen__text-container {
+    padding: 80px 15px 15px 74px;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .endless-splash-screen__text-container {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,39 @@
+.endless-how-it-works__container {
+  background-color: #fff;
+  color: #2f3237;
+  padding: 15px 15px 30px 15px;
+  text-align: center;
+}
+
+.endless-how-it-works__step-container--inner {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  max-width: 750px;
+  transition: gap 0.25s ease-in-out;
+}
+
+.endless-how-it-works__step-container--outer {
+  display: flex;
+  justify-content: center;
+}
+
+.endless-how-it-works__title {
+  font-size: 24px;
+  font-family: "LatoRegular";
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 770px) {
+  .endless-how-it-works__step-container--inner {
+    grid-template-columns: auto auto;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .endless-how-it-works__step-container--inner {
+    grid-template-columns: auto;
+    gap: 2rem;
+  }
+}

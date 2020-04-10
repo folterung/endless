@@ -1,0 +1,19 @@
+.endless-header {
+  align-items: center;
+  background-color: #212121;
+  display: flex;
+  height: 30px;
+  padding-left: 100px;
+  transition: padding 0.25s ease-in-out;
+}
+
+.endless-header__logo {
+  height: 14px;
+  fill: #47e4c2;
+}
+
+@media only screen and (max-width: 770px) {
+  .endless-header {
+    padding-left: 15px;
+  }
+}

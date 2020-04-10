@@ -1,0 +1,24 @@
+.endless-step__container {
+  color: #2f3237;
+  text-align: center;
+}
+
+.endless-step__number {
+  border-bottom: 3px solid #50e3c2;
+  font-family: "LatoRegular";
+  font-size: 42px;
+  padding-bottom: 5px;
+}
+
+.endless-step__text {
+  font-family: "LatoRegular";
+  font-size: 12px;
+  max-width: 180px;
+}
+
+.endless-step__title {
+  font-family: "LatoBold";
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px 0;
+}

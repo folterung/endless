@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "LatoBlack";
+  src: url("./assets/font/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "LatoBlackItalic";
+  src: url("./assets/font/Lato-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("./assets/font/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "LatoBoldItalic";
+  src: url("./assets/font/Lato-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "LatoItalic";
+  src: url("./assets/font/Lato-Italic.ttf");
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: url("./assets/font/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "LatoLightItalic";
+  src: url("./assets/font/Lato-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url("./assets/font/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LatoThin";
+  src: url("./assets/font/Lato-Thin.ttf");
+}
+
+@font-face {
+  font-family: "LatoThinItalic";
+  src: url("./assets/font/Lato-ThinItalic.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
